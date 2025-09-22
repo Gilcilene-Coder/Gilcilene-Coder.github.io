@@ -1,21 +1,4 @@
-<div class="timeline-item">
-                    <div class="timeline-content">
-                        <span class="timeline-date">2018 - 2021</span>
-                        <h3>Análise e Desenvolvimento de Sistemas</h3>
-                        <h4>SENAI</h4>
-                        <p>Formação técnica em desenvolvimento de software, análise de sistemas e soluções tecnológicas.</p>
-                    </div>
-                </div>
-                
-                <!-- Formação atual -->
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <span class="timeline-date">2024 - 2027 (Previsto)</span>
-                        <h3>Gestão de Projetos e Processos</h3>
-                        <h4>Estácio</h4>
-                        <p>Formação com foco em gestão estratégica de projetos, processos de negócio e metodologias ágeis.</p>
-                    </div>
-                </div><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -617,11 +600,9 @@
             animation: fadeInUp 0.5s ease forwards;
         }
     </style>
-    <!-- Link para Font Awesome para ícones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Cabeçalho e Navegação -->
     <header>
         <div class="container">
             <nav>
@@ -645,19 +626,17 @@
         </div>
     </header>
 
-    <!-- Seção Sobre -->
     <section id="sobre">
         <div class="container">
             <h2 class="section-title">Sobre Mim</h2>
             <div class="about-content">
                 <div class="about-img">
-                    <!-- Substitua pelo link da sua foto -->
                     <img src="https://placehold.co/600x400" alt="Foto de Perfil">
                 </div>
                 <div class="about-text">
                     <h3>Olá, eu sou Gilcilene Custódio!</h3>
-                    <p>Sou especialista em transformação digital, automação de processos, produtos digitais e dados. Possuo uma sólida atuação em metodologias como BPM, Business Intelligence e IA, com foco na otimização de operações, eficiência e resultados estratégicos.</p>
-                    <p>Minha experiência abrange desde o mapeamento e redesenho de processos (As-Is / To-Be) até a implementação de soluções tecnológicas escaláveis, usando ferramentas Low-Code, Python e plataformas de RPA. Busco integrar a visão de processos com a análise de dados e a inovação em IA para impulsionar a tomada de decisões e o crescimento do negócio.</p>
+                    <p>Sou especialista em transformação digital, automação de processos e desenvolvimento de produtos digitais com IA. Minha atuação combina conhecimento profundo em BPM, Business Intelligence e Inteligência Artificial, entregando soluções completas que otimizam operações e geram resultados estratégicos mensuráveis.</p>
+                    <p>Desenvolvo sistemas completos em Python com arquitetura de IA, desde o backend até interfaces intuitivas, incluindo integrações complexas com bancos de dados e APIs. Minha experiência abrange desde o mapeamento e redesenho de processos (As-Is / To-Be) até a implementação de soluções tecnológicas escaláveis usando ferramentas Low-Code/No-Code (Power Apps, Pipefy, N8N), RPA (UiPath, Power Automate) e desenvolvimento custom. Já entreguei sistemas de gestão documental com IA, aplicativos corporativos, automações críticas e migração/implantação de plataformas para diversos setores, incluindo projetos para o governo e instituições financeiras.</p>
                     
                     <div class="skills">
                         <h4>Minhas Habilidades Técnicas:</h4>
@@ -670,10 +649,12 @@
                             <span class="skill-tag">SQL</span>
                             <span class="skill-tag">UiPath</span>
                             <span class="skill-tag">N8N</span>
+                            <span class="skill-tag">Pipefy</span>
+                            <span class="skill-tag">Power Apps</span>
                             <span class="skill-tag">Scrum</span>
                             <span class="skill-tag">Kanban</span>
-                            <span class="skill-tag">Low-Code</span>
-                            <span class="skill-tag">IA</span>
+                            <span class="skill-tag">IA Generativa</span>
+                            <span class="skill-tag">APIs REST</span>
                         </div>
                     </div>
                 </div>
@@ -681,23 +662,62 @@
         </div>
     </section>
 
-    <!-- Seção Projetos -->
     <section id="projetos" class="projects">
         <div class="container">
             <h2 class="section-title">Meus Projetos</h2>
             <div class="projects-grid">
-                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://placehold.co/600x400/6366f1/ffffff?text=IA+Documental" alt="Sistema IA Documental">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema de IA para Gestão Documental</h3>
+                        <p>Desenvolvimento completo de sistema inteligente para processamento e análise de documentos usando Python. Solução 100% custom com interface web responsiva, integração com múltiplas APIs, banco de dados relacional e modelos de IA para extração e classificação automática de informações.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>IA/ML</span>
+                            <span>SQL</span>
+                            <span>APIs REST</span>
+                            <span>Interface Web</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-link"></i> Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://placehold.co/600x400/8b5cf6/ffffff?text=IA+Governo" alt="Sistemas IA Governamentais">
+                    </div>
+                    <div class="project-content">
+                        <h3>Soluções de IA para Governo do Piauí</h3>
+                        <p>Desenvolvimento de múltiplos sistemas baseados em Inteligência Artificial para políticas públicas, incluindo agentes inteligentes com interface customizada, conexão com bancos de dados governamentais e dashboards gerenciais para tomada de decisão estratégica em tempo real.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>IA Generativa</span>
+                            <span>Power BI</span>
+                            <span>SQL</span>
+                            <span>ETL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-link"></i> Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                
                 <div class="project-card">
                     <div class="project-img">
                         <img src="https://placehold.co/600x400/2a52be/ffffff?text=BPM+Clariens" alt="Projeto Clariens">
                     </div>
                     <div class="project-content">
                         <h3>Transformação Digital Clariens</h3>
-                        <p>Liderança na transformação digital e eficiência operacional com mapeamento completo de processos (As-Is e To-Be), implementação de metodologias ágeis e desenvolvimento de soluções customizadas.</p>
+                        <p>Liderança estratégica na transformação digital de instituição financeira com mapeamento completo de processos (As-Is e To-Be), implementação de metodologias ágeis, desenvolvimento de aplicativos em Power Apps e automações críticas que reduziram tempo operacional em 60%.</p>
                         <div class="project-tech">
                             <span>Bizagi</span>
+                            <span>Power Apps</span>
+                            <span>Power Automate</span>
                             <span>Scrum</span>
-                            <span>Kanban</span>
                             <span>BPM</span>
                         </div>
                         <div class="project-links">
@@ -706,18 +726,18 @@
                     </div>
                 </div>
                 
-                <!-- Projeto 2 -->
                 <div class="project-card">
                     <div class="project-img">
                         <img src="https://placehold.co/600x400/2ea44f/ffffff?text=Bitrix+Resolva" alt="Projeto Resolva">
                     </div>
                     <div class="project-content">
-                        <h3>Sistema Integrado Resolva Marcas</h3>
-                        <p>Liderança na estruturação completa do sistema Bitrix, com mapeamento de processos AS-IS e TO-BE focando na transformação digital e otimização dos fluxos operacionais da empresa.</p>
+                        <h3>Migração e Implantação Resolva Marcas</h3>
+                        <p>Liderança completa do projeto de implantação e migração do sistema Bitrix, incluindo mapeamento de processos AS-IS e TO-BE, desenho da arquitetura de informação, customizações e treinamento das equipes para transformação digital efetiva.</p>
                         <div class="project-tech">
-                            <span>Bitrix</span>
+                            <span>Bitrix24</span>
                             <span>BPM</span>
-                            <span>Transformação Digital</span>
+                            <span>Migração de Dados</span>
+                            <span>Change Management</span>
                         </div>
                         <div class="project-links">
                             <a href="#"><i class="fas fa-link"></i> Ver Detalhes</a>
@@ -725,19 +745,38 @@
                     </div>
                 </div>
                 
-                <!-- Projeto 3 -->
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="https://placehold.co/600x400/e34c26/ffffff?text=Automação+City" alt="Projeto City">
+                        <img src="https://placehold.co/600x400/e34c26/ffffff?text=Automação+N8N" alt="Projeto Automações">
                     </div>
                     <div class="project-content">
-                        <h3>Automação de Processos City Soluções</h3>
-                        <p>Implementação de metodologia BPM nas áreas de negócio, desenvolvimento de OKRs, KPIs e automação de tarefas críticas utilizando Power Automate e Python, resultando em maior eficiência operacional.</p>
+                        <h3>Automações Inteligentes Multi-Plataforma</h3>
+                        <p>Desenvolvimento de ecossistema de automações integradas usando N8N, Pipefy e Power Automate. Criação de workflows complexos conectando múltiplos sistemas, APIs e bases de dados, resultando em economia de 120+ horas mensais de trabalho manual.</p>
                         <div class="project-tech">
+                            <span>N8N</span>
+                            <span>Pipefy</span>
                             <span>Power Automate</span>
-                            <span>Python</span>
-                            <span>BPM</span>
-                            <span>KPIs</span>
+                            <span>APIs</span>
+                            <span>Webhooks</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-link"></i> Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://placehold.co/600x400/10b981/ffffff?text=Power+Apps" alt="Aplicativos Power Apps">
+                    </div>
+                    <div class="project-content">
+                        <h3>Aplicativos Corporativos Power Apps</h3>
+                        <p>Desenvolvimento de aplicativos mobile e web corporativos usando Power Apps com integrações ao SharePoint, SQL Server e APIs externas. Soluções incluem gestão de campo, controle de ativos, aprovações digitais e dashboards operacionais em tempo real.</p>
+                        <div class="project-tech">
+                            <span>Power Apps</span>
+                            <span>Power Automate</span>
+                            <span>SharePoint</span>
+                            <span>SQL Server</span>
                         </div>
                         <div class="project-links">
                             <a href="#"><i class="fas fa-link"></i> Ver Detalhes</a>
@@ -748,23 +787,20 @@
         </div>
     </section>
 
-    <!-- Seção Experiência -->
     <section id="experiencia" class="experience">
         <div class="container">
             <h2 class="section-title">Minha Experiência</h2>
             
             <div class="timeline">
-                <!-- Experiência 1 -->
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <span class="timeline-date">Junho 2025 - Presente</span>
                         <h3>Consultora Analista em Gestão de Projetos</h3>
                         <h4>Governo do Piauí</h4>
-                        <p>Fortalecimento da gestão de projetos de tecnologia e dados para políticas públicas. Mapeamento e reprojeto de processos operacionais e fluxos de dados. Desenvolvimento de agentes inteligentes (IA) e dashboards gerenciais.</p>
+                        <p>Desenvolvimento de sistemas de IA com interface customizada para políticas públicas. Criação de agentes inteligentes integrados a bancos de dados governamentais. Mapeamento e otimização de processos operacionais. Desenvolvimento de dashboards gerenciais e soluções de análise de dados para tomada de decisão estratégica.</p>
                     </div>
                 </div>
                 
-                <!-- Experiência 2 -->
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <span class="timeline-date">Junho 2025 - Presente</span>
@@ -774,30 +810,45 @@
                     </div>
                 </div>
                 
-                <!-- Experiência 3 -->
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <span class="timeline-date">Abril 2025 - Presente</span>
                         <h3>Consultora de Processos/Requisitos</h3>
                         <h4>MASTER PROJECT (Clariens Instituição)</h4>
-                        <p>Liderança na transformação digital e eficiência operacional com mapeamento de processos (As-Is e To-Be). Modelagem de processos no Bizagi e gestão das entregas com Scrum e Kanban.</p>
+                        <p>Liderança na transformação digital de instituição financeira com mapeamento de processos (As-Is e To-Be) e modelagem no Bizagi. Desenvolvimento de aplicativos corporativos em Power Apps com integrações. Criação de automações críticas com Power Automate. Gestão ágil de entregas com Scrum e Kanban, resultando em ganhos significativos de eficiência operacional.</p>
                     </div>
                 </div>
                 
-                <!-- Experiência 4 -->
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <span class="timeline-date">Janeiro 2025 - Maio 2025</span>
                         <h3>Analista de Processos e Desenvolvimento</h3>
                         <h4>MASTER PROJECT</h4>
-                        <p>Liderança estratégica na transformação digital, integrando visão de processos e soluções customizadas. Desenvolvimento de automações e integrações (N8N, Power Apps), e criação de IAs personalizadas.</p>
+                        <p>Liderança estratégica na transformação digital, integrando visão de processos e desenvolvimento de soluções customizadas. Criação de automações complexas com N8N e Power Automate. Desenvolvimento de aplicativos em Power Apps e Pipefy. Implementação de IAs personalizadas para otimização de processos. Implantação e migração de sistemas corporativos.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2018 - 2021</span>
+                        <h3>Análise e Desenvolvimento de Sistemas</h3>
+                        <h4>SENAI</h4>
+                        <p>Formação técnica em desenvolvimento de software, análise de sistemas e soluções tecnológicas.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - 2027 (Previsto)</span>
+                        <h3>Gestão de Projetos e Processos</h3>
+                        <h4>Estácio</h4>
+                        <p>Formação com foco em gestão estratégica de projetos, processos de negócio e metodologias ágeis.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Seção Contato -->
     <section id="contato" class="contact">
         <div class="container">
             <h2 class="section-title">Entre em Contato</h2>
@@ -844,12 +895,11 @@
         </div>
     </section>
 
-    <!-- Rodapé -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="social-links">
-                    <a href="https://www.linkedin.com/in/gilcilene-custodio"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/gilcilene-custodio" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a href="#"><i class="fab fa-github"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
@@ -863,27 +913,22 @@
     </footer>
 
     <script>
-        // Script para animar elementos quando entram na viewport
         document.addEventListener('DOMContentLoaded', () => {
-            // Seleciona todos os elementos que queremos animar
             const elements = document.querySelectorAll('.about-content, .project-card, .timeline-item');
             
-            // Configuração do Intersection Observer
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('fade-in-up');
-                        observer.unobserve(entry.target); // Para de observar após animar
+                        observer.unobserve(entry.target);
                     }
                 });
-            }, { threshold: 0.2 }); // 20% do elemento visível para ativar
+            }, { threshold: 0.2 });
             
-            // Observa cada elemento
             elements.forEach(element => {
                 observer.observe(element);
             });
             
-            // Scroll suave para links internos
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
