@@ -1,4 +1,21 @@
-<!DOCTYPE html>
+<div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2018 - 2021</span>
+                        <h3>Análise e Desenvolvimento de Sistemas</h3>
+                        <h4>SENAI</h4>
+                        <p>Formação técnica em desenvolvimento de software, análise de sistemas e soluções tecnológicas.</p>
+                    </div>
+                </div>
+                
+                <!-- Formação atual -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - 2027 (Previsto)</span>
+                        <h3>Gestão de Projetos e Processos</h3>
+                        <h4>Estácio</h4>
+                        <p>Formação com foco em gestão estratégica de projetos, processos de negócio e metodologias ágeis.</p>
+                    </div>
+                </div><!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -608,7 +625,7 @@
     <header>
         <div class="container">
             <nav>
-                <a href="#" class="logo">Seu Nome</a>
+                <a href="#" class="logo">Gilcilene Custódio</a>
                 <div class="nav-links">
                     <a href="#sobre">Sobre</a>
                     <a href="#projetos">Projetos</a>
@@ -618,8 +635,8 @@
             </nav>
             
             <div class="hero">
-                <h1>Desenvolvedor de Sistemas</h1>
-                <p>Criando soluções inovadoras e eficientes para transformar ideias em realidade digital.</p>
+                <h1>Especialista em Transformação Digital</h1>
+                <p>Automação de processos, produtos digitais e análise de dados com foco em soluções tecnológicas inovadoras e escaláveis.</p>
                 <div class="cta-buttons">
                     <a href="#projetos" class="btn">Ver Projetos</a>
                     <a href="#contato" class="btn btn-outline">Entre em Contato</a>
@@ -638,22 +655,25 @@
                     <img src="https://placehold.co/600x400" alt="Foto de Perfil">
                 </div>
                 <div class="about-text">
-                    <h3>Olá, eu sou [Seu Nome]!</h3>
-                    <p>Sou um desenvolvedor de sistemas com [X anos] de experiência na criação de soluções digitais para diversos setores. Minha paixão é desenvolver sistemas que não apenas atendam às necessidades dos clientes, mas também proporcionem uma excelente experiência ao usuário.</p>
-                    <p>Com formação em [sua formação], tenho me especializado em [suas especialidades]. Minha abordagem combina conhecimento técnico com visão de negócios para entregar resultados que realmente fazem diferença.</p>
+                    <h3>Olá, eu sou Gilcilene Custódio!</h3>
+                    <p>Sou especialista em transformação digital, automação de processos, produtos digitais e dados. Possuo uma sólida atuação em metodologias como BPM, Business Intelligence e IA, com foco na otimização de operações, eficiência e resultados estratégicos.</p>
+                    <p>Minha experiência abrange desde o mapeamento e redesenho de processos (As-Is / To-Be) até a implementação de soluções tecnológicas escaláveis, usando ferramentas Low-Code, Python e plataformas de RPA. Busco integrar a visão de processos com a análise de dados e a inovação em IA para impulsionar a tomada de decisões e o crescimento do negócio.</p>
                     
                     <div class="skills">
                         <h4>Minhas Habilidades Técnicas:</h4>
                         <div class="skill-tags">
-                            <span class="skill-tag">JavaScript</span>
-                            <span class="skill-tag">React</span>
-                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">BPM/BPMN</span>
+                            <span class="skill-tag">Bizagi</span>
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">Power Automate</span>
                             <span class="skill-tag">Python</span>
                             <span class="skill-tag">SQL</span>
-                            <span class="skill-tag">MongoDB</span>
-                            <span class="skill-tag">AWS</span>
-                            <span class="skill-tag">Docker</span>
-                            <!-- Adicione mais conforme necessário -->
+                            <span class="skill-tag">UiPath</span>
+                            <span class="skill-tag">N8N</span>
+                            <span class="skill-tag">Scrum</span>
+                            <span class="skill-tag">Kanban</span>
+                            <span class="skill-tag">Low-Code</span>
+                            <span class="skill-tag">IA</span>
                         </div>
                     </div>
                 </div>
@@ -669,20 +689,19 @@
                 <!-- Projeto 1 -->
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="https://placehold.co/600x400" alt="Projeto 1">
+                        <img src="https://placehold.co/600x400/2a52be/ffffff?text=BPM+Clariens" alt="Projeto Clariens">
                     </div>
                     <div class="project-content">
-                        <h3>Sistema de Gestão Empresarial</h3>
-                        <p>Desenvolvimento de um sistema completo para gerenciamento de recursos, clientes e finanças de pequenas e médias empresas.</p>
+                        <h3>Transformação Digital Clariens</h3>
+                        <p>Liderança na transformação digital e eficiência operacional com mapeamento completo de processos (As-Is e To-Be), implementação de metodologias ágeis e desenvolvimento de soluções customizadas.</p>
                         <div class="project-tech">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
-                            <span>Express</span>
+                            <span>Bizagi</span>
+                            <span>Scrum</span>
+                            <span>Kanban</span>
+                            <span>BPM</span>
                         </div>
                         <div class="project-links">
-                            <a href="#"><i class="fas fa-link"></i> Ver Demo</a>
-                            <a href="#"><i class="fab fa-github"></i> Código Fonte</a>
+                            <a href="#"><i class="fas fa-link"></i> Ver Detalhes</a>
                         </div>
                     </div>
                 </div>
@@ -690,19 +709,18 @@
                 <!-- Projeto 2 -->
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="https://placehold.co/600x400" alt="Projeto 2">
+                        <img src="https://placehold.co/600x400/2ea44f/ffffff?text=Bitrix+Resolva" alt="Projeto Resolva">
                     </div>
                     <div class="project-content">
-                        <h3>Aplicativo de E-commerce</h3>
-                        <p>Plataforma completa de e-commerce com funcionalidades de carrinho, pagamentos online e gerenciamento de estoque.</p>
+                        <h3>Sistema Integrado Resolva Marcas</h3>
+                        <p>Liderança na estruturação completa do sistema Bitrix, com mapeamento de processos AS-IS e TO-BE focando na transformação digital e otimização dos fluxos operacionais da empresa.</p>
                         <div class="project-tech">
-                            <span>React Native</span>
-                            <span>Firebase</span>
-                            <span>Stripe API</span>
+                            <span>Bitrix</span>
+                            <span>BPM</span>
+                            <span>Transformação Digital</span>
                         </div>
                         <div class="project-links">
-                            <a href="#"><i class="fas fa-link"></i> Ver Demo</a>
-                            <a href="#"><i class="fab fa-github"></i> Código Fonte</a>
+                            <a href="#"><i class="fas fa-link"></i> Ver Detalhes</a>
                         </div>
                     </div>
                 </div>
@@ -710,20 +728,19 @@
                 <!-- Projeto 3 -->
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="https://placehold.co/600x400" alt="Projeto 3">
+                        <img src="https://placehold.co/600x400/e34c26/ffffff?text=Automação+City" alt="Projeto City">
                     </div>
                     <div class="project-content">
-                        <h3>Dashboard Analítico</h3>
-                        <p>Dashboard interativo para visualização de dados empresariais, com gráficos dinâmicos e relatórios personalizados.</p>
+                        <h3>Automação de Processos City Soluções</h3>
+                        <p>Implementação de metodologia BPM nas áreas de negócio, desenvolvimento de OKRs, KPIs e automação de tarefas críticas utilizando Power Automate e Python, resultando em maior eficiência operacional.</p>
                         <div class="project-tech">
-                            <span>Vue.js</span>
-                            <span>D3.js</span>
+                            <span>Power Automate</span>
                             <span>Python</span>
-                            <span>Flask</span>
+                            <span>BPM</span>
+                            <span>KPIs</span>
                         </div>
                         <div class="project-links">
-                            <a href="#"><i class="fas fa-link"></i> Ver Demo</a>
-                            <a href="#"><i class="fab fa-github"></i> Código Fonte</a>
+                            <a href="#"><i class="fas fa-link"></i> Ver Detalhes</a>
                         </div>
                     </div>
                 </div>
@@ -740,40 +757,40 @@
                 <!-- Experiência 1 -->
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <span class="timeline-date">2022 - Presente</span>
-                        <h3>Desenvolvedor Full Stack Senior</h3>
-                        <h4>Empresa XYZ Tecnologia</h4>
-                        <p>Desenvolvimento e manutenção de aplicações web e móveis para clientes de diversos segmentos. Liderança de equipe e implementação de metodologias ágeis.</p>
+                        <span class="timeline-date">Junho 2025 - Presente</span>
+                        <h3>Consultora Analista em Gestão de Projetos</h3>
+                        <h4>Governo do Piauí</h4>
+                        <p>Fortalecimento da gestão de projetos de tecnologia e dados para políticas públicas. Mapeamento e reprojeto de processos operacionais e fluxos de dados. Desenvolvimento de agentes inteligentes (IA) e dashboards gerenciais.</p>
                     </div>
                 </div>
                 
                 <!-- Experiência 2 -->
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <span class="timeline-date">2019 - 2022</span>
-                        <h3>Desenvolvedor Back-end</h3>
-                        <h4>Empresa ABC Software</h4>
-                        <p>Desenvolvimento de APIs RESTful, integração com serviços de terceiros e implementação de arquiteturas escaláveis para aplicações de alto tráfego.</p>
+                        <span class="timeline-date">Junho 2025 - Presente</span>
+                        <h3>Analista de dados sênior</h3>
+                        <h4>MJV Technology & Innovation</h4>
+                        <p>Atuação em mapeamento e catalogação de dados, com consultas SQL. Análise e documentação de fontes de dados, garantindo rastreabilidade e integridade. Definição de catálogos de dados para insights estratégicos.</p>
                     </div>
                 </div>
                 
                 <!-- Experiência 3 -->
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <span class="timeline-date">2017 - 2019</span>
-                        <h3>Desenvolvedor Front-end</h3>
-                        <h4>Empresa 123 Digital</h4>
-                        <p>Criação de interfaces responsivas e acessíveis, implementação de animações e otimização de performance para aplicações web.</p>
+                        <span class="timeline-date">Abril 2025 - Presente</span>
+                        <h3>Consultora de Processos/Requisitos</h3>
+                        <h4>MASTER PROJECT (Clariens Instituição)</h4>
+                        <p>Liderança na transformação digital e eficiência operacional com mapeamento de processos (As-Is e To-Be). Modelagem de processos no Bizagi e gestão das entregas com Scrum e Kanban.</p>
                     </div>
                 </div>
                 
-                <!-- Formação -->
+                <!-- Experiência 4 -->
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <span class="timeline-date">2013 - 2017</span>
-                        <h3>Bacharelado em Ciência da Computação</h3>
-                        <h4>Universidade XYZ</h4>
-                        <p>Formação com ênfase em desenvolvimento de software, engenharia de sistemas e análise de dados.</p>
+                        <span class="timeline-date">Janeiro 2025 - Maio 2025</span>
+                        <h3>Analista de Processos e Desenvolvimento</h3>
+                        <h4>MASTER PROJECT</h4>
+                        <p>Liderança estratégica na transformação digital, integrando visão de processos e soluções customizadas. Desenvolvimento de automações e integrações (N8N, Power Apps), e criação de IAs personalizadas.</p>
                     </div>
                 </div>
             </div>
@@ -793,7 +810,7 @@
                         <i class="fas fa-envelope"></i>
                         <div class="contact-text">
                             <h4>Email</h4>
-                            <p>seuemail@exemplo.com</p>
+                            <p>gilcilenedepaiva@gmail.com</p>
                         </div>
                     </div>
                     
@@ -801,7 +818,7 @@
                         <i class="fas fa-phone"></i>
                         <div class="contact-text">
                             <h4>Telefone</h4>
-                            <p>+55 (00) 00000-0000</p>
+                            <p>+55 (62) 99464-3122</p>
                         </div>
                     </div>
                     
@@ -809,7 +826,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="contact-text">
                             <h4>Localização</h4>
-                            <p>Sua Cidade, Estado, Brasil</p>
+                            <p>Goiânia, GO, Brasil</p>
                         </div>
                     </div>
                 </div>
@@ -832,14 +849,14 @@
         <div class="container">
             <div class="footer-content">
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/gilcilene-custodio"><i class="fab fa-linkedin"></i></a>
                     <a href="#"><i class="fab fa-github"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
                 
                 <div class="footer-bottom">
-                    <p>&copy; 2025 [Seu Nome]. Todos os direitos reservados.</p>
+                    <p>&copy; 2025 Gilcilene Custódio. Todos os direitos reservados.</p>
                 </div>
             </div>
         </div>
